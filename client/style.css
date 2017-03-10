@@ -1,0 +1,109 @@
+html,body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	font-size: 14px;
+}
+.container{
+	margin-top: 10px;
+	width: 50%;
+	position: absolute;
+	left: 25%;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+.messages{
+	width: 100%;
+	height: 740px;
+	overflow-y: auto;
+	background: #E5E5E2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.loginView{
+	background: #D4D4E2;
+	height: 100%;
+	width: 100%;
+}
+.login{
+	width: 40%;
+	height: 35%;
+	/* background: #F5D7B8; */
+	position: absolute;
+	left: 33%;
+	top: 230px;
+}
+.usname{
+	cursor: pointer;
+	font-size: 16px;
+	min-width: 80px;
+	height: 35px;
+	text-align: center;
+	line-height: 32px;
+	border-radius: 4px;
+}
+.usname:hover{
+	background: #DECBE2;
+	border: 1px solid black;
+	color: #4800FF;
+}
+.onlineuser{
+	width: 100%;
+	height: 25px;
+	/* background: orange; */
+	line-height: 25px;
+	padding-left: 18px;
+	color: gray;
+}
+.section{
+	width: 100%;
+	height: 25px;
+	color: gray;
+	line-height: 25px;
+	text-align: center;
+	clear:both;
+}
+.messagediv{
+	float: right;
+	white-space:break-word;
+	word-break:break-all;
+	min-width:10px;
+	max-width:370px;
+	font-size:18px;
+	padding:5px 15px;
+}
+.headerclass{
+	min-width: 40px;
+	height: 29px;
+	background: silver;
+	float: right;
+	margin-top: 14px;
+	margin-left: 3px;
+	border-radius: 3px;
+	clear:both;
+	text-align: center;
+	line-height: 29px;
+	color: black;
+}
+.messagediv1{
+	float: left;
+	white-space:break-word;
+	word-break:break-all;
+	min-width:10px;
+	max-width:370px;
+	font-size:18px;
+	padding:5px 15px;
+}
+.headerclass1{
+	min-width: 40px;
+	height: 29px;
+	background: silver;
+	float: left;
+	margin-top: 14px;
+	margin-right: 3px;
+	border-radius: 3px;
+	clear:both;
+	text-align: center;
+	line-height: 29px;
+	color: black;
+}

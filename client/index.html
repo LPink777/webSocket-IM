@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>多人聊天室</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Semantic-UI-master/dist/semantic.css">
+    <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="Semantic-UI-master/dist/semantic.js"></script>
+    <script type="text/javascript" src="socket.io.js"></script>
+    <script type="text/javascript" src="client.js"></script>
+</head>
+
+<body>
+	<div class="loginView">
+		<div class="login">
+			<div class="ui attached inverted" style="background: #D4D4E2">
+			 	<div class="item ui input">
+				  	<input class="username" type="text" placeholder="请输入用户名..." style="width: 340px">
+				  	<button class="ui inverted orange basic button loginBtn" style="margin-left: 20px;">Login</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="container" style="display: none">
+		<div class="ui attached tabular menu">
+	        <div class="item">WebSocket IM</div>
+	        <div class="item right">
+	        	<span class="usname"></span>
+	        </div>
+	        <div class="item ui inverted">
+				<button class="logoutBtn ui inverted purple button mini">Logout</button>
+	        </div>
+	    </div>
+	    <div class="ui">
+	    	<div class="messages">
+	    		<div class="onlineuser">
+	    			
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="ui attached tabular menu inverted" style="background: #C0BFC0">
+			<div class="item ui input inverted " style="width: 490px;">
+			  	<input type="text" placeholder="请输入聊天内容..." class="content">
+			</div>
+			<div class="item right ui inverted " style="width: 450px;">
+			  	<button class="ui inverted tealviolet basic button enterMs">点击发送</button>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
