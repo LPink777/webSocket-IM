@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "client/Semantic-UI-master/package.json",
+        "client/Semantic-UI-master/tasks/config/admin/templates/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
